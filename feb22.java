@@ -1,4 +1,5 @@
-/*there are mainly two conditions 
+/*997. Find the Town Judge
+there are mainly two conditions 
  * 1.The judge must not trust anyone means in the given code trusting should be 0 for judge.
  * 2.Every one should trust judge means trusted[judge]=n-1 
  * if above confitions satisfy then we can return judge
