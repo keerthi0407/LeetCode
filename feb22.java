@@ -21,3 +21,8 @@ public class feb22 {
     }
     
 }
+/* TC:O(no: of elements in trust arr+ no: of people)
+Iterating through the trust array to populate the trusting and trusted arrays takes O(E), where E is the number of elements in the trust array.
+The subsequent loop iterates through the trusting and trusted arrays, which takes O(V), where V is the number of vertices (or people) in the town.
+Overall, the time complexity is O(E + V).
+Space Complexity: O(n+1)*/
